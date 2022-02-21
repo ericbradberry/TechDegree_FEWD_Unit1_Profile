@@ -71,7 +71,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid yellow;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -92,7 +92,7 @@ header .profile-image:hover {
 .skills-card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 0px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -103,7 +103,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
@@ -112,10 +112,14 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff99ff;
 }
+div li img {
+  display: flex;
+  width: 350px;
+}
 
 ul.skills {
   padding: 0;
-  text-align: center;
+ 
 }
 
 .skills li {
@@ -123,8 +127,9 @@ ul.skills {
   display: inline-block;
   background: #79ce01;
   color: white;
-  padding: 5px 10px;
+  padding: 10px 10px;
   margin: 2px;
+  justify-content: center;
 }
 
 .skills li:nth-child(odd) {
