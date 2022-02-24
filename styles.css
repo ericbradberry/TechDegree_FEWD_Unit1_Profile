@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -61,11 +61,9 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
-
-header {
   line-height: 1.5;
 }
+ 
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -101,6 +99,22 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+.skills-card:hover {
+  border-color: #79ce01;
+}
+.video-card {
+  width: auto;
+  border: 5px solid #7701bb;
+  background-color: #79ce01;
+  margin: 10px 20px;
+  padding: 50px;
+}
+.contact {
+  color: white;
+}
+.contact-resume {
+  color: #7701bb;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -122,7 +136,7 @@ header .profile-image:hover {
   justify-content: center;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #79ce01;
 }
 div li img {
   display: flex;
@@ -173,9 +187,9 @@ a.social {
   display: inline-block;
   text-indent: -9999px;
   margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
   opacity: .4;
   transition: all .5s;
 }
@@ -190,6 +204,7 @@ a.github {
 }
 a.social:hover {
   opacity: 1;
+  transform: scale(1.25);
 }
 .clearfix {
   clear: both;
